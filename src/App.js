@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Cosmos from './components/Cosmos';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Cosmos></Cosmos>
         </a>
       </header>
     </div>
