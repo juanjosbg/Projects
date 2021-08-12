@@ -1,8 +1,43 @@
+
 function Header(){
     return (
-            <section>
-                <p>header</p>
-            </section>
-    )
+        <section className="Header">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">Poke App</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        {/*<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">*/}
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="video-background">
+                <div class="video-wrap">
+                    <div id="video">
+                        <video id="bgvid" autoPlay loop muted playsinline>
+                            <source src="{video}" type="video/mp4" alt="video"></source>
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
 }
 export default Header;

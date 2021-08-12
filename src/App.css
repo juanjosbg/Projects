@@ -1,3 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap');
+/* --------------------------------- */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+:root{
+    /* Paleta de colores Azul */
+    --Blue1:#D4F1F4;
+    --Blue2:#B1D4E0;
+    --blue3:#189AB4;
+    --Blue4:#2E8BC0;
+    --Blue5:#145DA0;
+    --Blue6:#05445E;
+    --Blue7:#0C2D48;
+    
+    /* Paleta de colores Red */
+    --Red1:#800000;
+    --Red2:#AE0000;
+    --Red3:#DC0000;
+    --Red4:#FF0B0B;
+    --Red5:#FF3939;
+    --Red6:#FF6666;
+    --Red7:#FF9494;
+}
+
 .App {
   text-align: center;
 }
@@ -7,14 +38,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  /* background-image: url('./img/poke.jfif'); */
+ background-color:#dddddd;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -31,11 +56,3 @@
   font-size: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
