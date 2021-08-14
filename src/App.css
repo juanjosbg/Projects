@@ -37,9 +37,7 @@ html,body{
   height: 40vmin;
   pointer-events: none;
 }
-
 .App-header {
- background-color:#dddddd;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -49,7 +47,6 @@ html,body{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
   text-decoration: none;

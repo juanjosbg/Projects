@@ -1,8 +1,12 @@
 
+import  './css/Styles.css';
+import React from 'react';
+import video1 from '../assets/video-poke.mp4';
+
 function Header(){
     return (
         <section className="Header">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-header">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -21,23 +25,27 @@ function Header(){
                         </li>
                     </ul>
                     <form class="d-flex">
-                        {/*<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">*/}
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                     </div>
                 </div>
             </nav>
 
-            <div class="video-background">
-                <div class="video-wrap">
-                    <div id="video">
-                        <video id="bgvid" autoPlay loop muted playsinline>
-                            <source src="{video}" type="video/mp4" alt="video"></source>
-                        </video>
-                    </div>
+
+                <div class="absolute overlay">
+                    <h1>Welcome to <span>Pokemon</span> World</h1>
+                    <p>Here you can find diverse pokemons with their powers and names, so let's go for them</p>
                 </div>
-            </div>
+
+
+                <div>
+                    <video src={video1} controls autoPlay/>
+                </div>
+             
         </section>
+
+        
     );
 }
 export default Header;

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&family=Noto+Sans+TC:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+/* --------------------------------- */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image: var(--Red1) !important;
+}
+:root{
+    /* Paleta de colores Azul */
+    --Blue1:#D4F1F4;
+    --Blue2:#B1D4E0;
+    --blue3:#189AB4;
+    --Blue4:#2E8BC0;
+    --Blue5:#145DA0;
+    --Blue6:#05445E;
+    --Blue7:#0C2D48;
+    
+    /* Paleta de colores Red */
+    --Red1:#800000;
+    --Red2:#AE0000;
+    --Red3:#DC0000;
+    --Red4:#FF0B0B;
+    --Red5:#FF3939;
+    --Red6:#FF6666;
+    --Red7:#FF9494;
+}
+/*  */
+p{
+    font-size: 17px;
+    font-family: 'Mulish';
+}
+/*  */
+.Header{
+    text-align: center;
+}
+.bg-header{
+    background: rgb(132,32,32);
+    background: linear-gradient(90deg, rgba(132,32,32,1) 34%, rgba(51,0,0,1) 100%);
+}
+video{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.absolute{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.absolute h1{
+    margin-top: 40px;
+    font-family: 'Noto Sans TC';
+    font-weight: bold;
+    color: #fff;
+}
+.absolute p{
+
+    font-size: 17px;
+    color: #fff;
+}
+.absolute span{
+    color:var(--Red3);
+}
+.overlay{
+
+}
