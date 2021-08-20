@@ -38,7 +38,10 @@ p{
     font-size: 17px;
     font-family: 'Mulish';
 }
-/*  */
+
+
+/* ------------------------------------------------------------------ */
+/* Part of Header */
 .Header{
     text-align: center;
 }
@@ -46,6 +49,10 @@ p{
     background: rgb(132,32,32);
     background: linear-gradient(90deg, rgba(132,32,32,1) 34%, rgba(51,0,0,1) 100%);
 }
+
+
+/* ------------------------------------------------------------------ */
+/* Part of Body */
 video{
     width: 100%;
     height: 50vh;
@@ -74,6 +81,25 @@ video{
 .absolute span{
     color:var(--Red3);
 }
-.overlay{
 
+/* ------------------------------------------------------------------ */
+/* Part of Cards */
+.Fist__cont-card{
+    padding: 60px;
+}
+.card img{
+    width: 50%;
+    object-fit: cover;
+    padding: 10px;
+    margin-left: 80px;
+}
+.card__A{
+    background-color: #ffd30d !important;
+}
+.card-title{
+    text-align: center;
+    color: #fff;
+    font-family: 'Noto Sans TC';
+    font-weight: bold;
+    font-size: 30px;
 }
