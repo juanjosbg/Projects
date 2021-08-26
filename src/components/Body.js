@@ -6,7 +6,7 @@ import Cards from './Cards';
 function Body(){
     return (
         <section>
-            <div class="absolute overlay">
+            <div className="absolute overlay">
                 <h1>Welcome to <span>Pokemon</span> World</h1>
                 <p>Here you can find diverse pokemons with their powers and names, so let's go for them</p>
             </div>

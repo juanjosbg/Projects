@@ -1,11 +1,26 @@
+/* otra forma para llamar objetos {atributos del objeto}*/
+import {useState} from 'react'; 
 import  './css/Search.css';
 
-function Search(){
+const Search=({onSearch})=>{
+
+    //retorna 2 valores
+    const [pokemonName,setpokemonName] = useState('') 
+
     return (
         <section>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button class="btn btn-outline-success" type="submit">Search</button>
+            <form className="d-flex">
+                <input value={pokemonName} onChange={(m)=>setpokemonName(m.target.value)} 
+                className="form-control me-2" 
+                type="search" 
+                placeholder="Search" 
+                aria-label="Search"/>
+                
+                {/* para caputar los eventos (datos del usuario)*/}
+                <button onClick={(e)=>{e.preventDefault(); onSearch(pokemonName) }} 
+                className="btn btn-outline-success" 
+                type="submit">Search</button>
+
             </form>
         </section>
     );
