@@ -1,7 +1,7 @@
 import video1 from '../assets/video-poke.mp4';
 import  './css/Styles.css';
 import React from 'react';
-import Cards from './Cards';
+import Call from'./Call'
 
 function Body(){
     return (
@@ -13,7 +13,7 @@ function Body(){
 
             <video src={video1} autoPlay muted />
 
-            <Cards/>
+            <Call/>
         </section>
     );
 }

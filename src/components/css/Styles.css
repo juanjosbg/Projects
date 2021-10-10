@@ -83,9 +83,13 @@ video{
 }
 
 /* ------------------------------------------------------------------ */
-/* Part of Cards */
+/* Part of Cards  <- this part can to delete but more letter !! now its only prube*/
 .Fist__cont-card{
     padding: 60px;
+}
+.p-pok{
+    text-align: center;
+    padding: 60px 0 0 0;
 }
 .card img{
     width: 50%;
@@ -95,6 +99,7 @@ video{
 }
 .card__A{
     background-color: #ffd30d !important;
+    min-height: 60vh;
 }
 .card-title{
     text-align: center;
@@ -103,3 +108,5 @@ video{
     font-weight: bold;
     font-size: 30px;
 }
+/* ------------------------------------------------------------------ */
+/* Part of PokeDetail */

@@ -1,10 +1,11 @@
 import "bootstrap/dist/css/bootstrap.css";
-import  './css/Styles.css';
+import './css/Styles.css';
 import React from 'react';
 
-function Cards(){
+function Cards() {
     return (
         <section className="Cards-App">
+            <p className="p-pok"><b>  Estas cards se quitan</b></p>
             <div className="Fist__cont-card">
                 <div className="container">
                     <div className="row">
