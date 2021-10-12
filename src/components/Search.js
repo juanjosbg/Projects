@@ -16,7 +16,7 @@ const Search=({onSearch})=>{
                 placeholder="Search" 
                 aria-label="Search"/>
                 
-                {/* para caputar los eventos (datos del usuario)*/}
+                {/* para caputar los eventos (datos del usuari  o)*/}
                 <button onClick={(e)=>{e.preventDefault(); onSearch(pokemonName) }} 
                 className="btn btn-outline-success" 
                 type="submit">Search</button>

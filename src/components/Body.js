@@ -1,9 +1,9 @@
 import video1 from '../assets/video-poke.mp4';
 import  './css/Styles.css';
 import React from 'react';
-import Call from'./Call'
+import Call from'./PokemonDetail'
 
-function Body(){
+function Body({pokemon}){
     return (
         <section>
             <div className="absolute overlay">
@@ -13,7 +13,7 @@ function Body(){
 
             <video src={video1} autoPlay muted />
 
-            <Call/>
+            <PokemonDetail pokemon={pokemon}/>
         </section>
     );
 }

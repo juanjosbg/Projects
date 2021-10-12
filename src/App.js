@@ -23,8 +23,8 @@ function App() {
       <Fragment>
         <Header onSearch2={buscarPokemon}/>
         
-
-        <Body/>
+    
+        <Body pokemon={mypokemon}/>
       </Fragment>
       
   );
